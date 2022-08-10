@@ -5,12 +5,7 @@ import { environment } from '../../../../environments/environment';
 @Component({
   selector: 'app-full-screen', 
   templateUrl: './full-screen.component.html',
-  styles: [`
-    #mapa {
-      height: 100%;
-      width: 100%;
-    }
-  `]
+  styleUrls: ['./full-screen.component.css']
 })
 export class FullScreenComponent implements OnInit {
 
